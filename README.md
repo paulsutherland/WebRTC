@@ -1,7 +1,3 @@
-# Dundee MakerSpace Introduction
+# WebRTC Introduction
 
-A short introductory presentation to Dundee MakerSpace.
-
-Available at [http://docs.dundeemakerspace.co.uk/makerspace-intro/#/](http://docs.dundeemakerspace.co.uk/makerspace-intro/#/)
-
-Built using reveal.js
+A short introductory presentation to WebRTC for the Software Society.
