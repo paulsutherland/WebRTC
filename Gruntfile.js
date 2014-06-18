@@ -14,11 +14,6 @@ module.exports = function(grunt) {
 				' * Copyright (C) 2014 Hakim El Hattab, http://hakim.se\n' +
 				' */'
 		},
-
-		qunit: {
-			files: [ 'test/*.html' ]
-		},
-
 		uglify: {
 			options: {
 				banner: '<%= meta.banner %>\n'
@@ -97,8 +92,15 @@ module.exports = function(grunt) {
 		},
 
 		watch: {
+      content: {
+        options: {
+          livereload: true,
+        },
+        files: ['slides.md', '*.html', 'css/**/*.css' ],
+        tasks: ''
+      },
 			main: {
-				files: [ 'Gruntfile.js', 'js/reveal.js', 'css/reveal.css' ],
+				files: [ 'Gruntfile.js', 'js/reveal.js', 'css/reveal.css'],
 				tasks: 'default'
 			},
 			theme: {
@@ -110,7 +112,6 @@ module.exports = function(grunt) {
 	});
 
 	// Dependencies
-	grunt.loadNpmTasks( 'grunt-contrib-qunit' );
 	grunt.loadNpmTasks( 'grunt-contrib-jshint' );
 	grunt.loadNpmTasks( 'grunt-contrib-cssmin' );
 	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
@@ -120,7 +121,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-zip' );
 
 	// Default task
-	grunt.registerTask( 'default', [ 'jshint', 'cssmin', 'uglify', 'qunit' ] );
+	grunt.registerTask( 'default', [ 'jshint', 'cssmin', 'uglify'] );
 
 	// Theme task
 	grunt.registerTask( 'themes', [ 'sass' ] );
