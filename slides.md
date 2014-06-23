@@ -95,9 +95,9 @@ Note:
 <!-- .slide: data-background="img/real-time.jpg" -->
 
 
-### Through the browser:
+### A world where through the browser you can:
 
-* File Sharing
+* File Share
 * Live Chat
 * Sensor Feeds
 * Data Feeds
@@ -106,3 +106,9 @@ Note:
 
 
 ### All Peer to Peer
+
+
+### Browser Support
+
+
+<!-- .slide: data-background="img/webrtc-ready.png" style="background: none;" -->
