@@ -109,6 +109,55 @@ Note:
 
 
 ### Browser Support
+* Chrome 23
+* Firefox 22
+* Opera 18
+
+
+### Mobile Support 
+* Chrome 28
+* Firefox 24
+* Opera Mobile 12
+
+
+### Apple
+* Not supporting it
+* They are very silent on it
+* They would need to replace the VP8 codec with H.264
+* Replace Opus voice codec with AAC-LD
+
+
+### Microsoft
+* Have an alternative called CU-RTC-Web
+* Stands for: Customizable, Ubiquitous Real-Time Communication
+* Looking at a lower level API 
 
 
 <!-- .slide: data-background="img/webrtc-ready.png" style="background: none;" -->
+
+
+<!-- .slide: data-background="img/firefox-about.png" style="background: none;" data-background-size="95%" -->
+
+
+### Interoperability between browsers
+* Firefox Beta post May 2013 
+* Opera 20 
+* Chrome 25 are interoperable
+
+
+###### API Differences 
+<!-- .element: style="font-weight:bold;" -->
+
+|W3C Standard          | Chrome                   | Firefox                 |
+|--------------------- | :-----------------------:| -----------------------:|
+|getUserMedia          |  webkitGetUserMedia      | mozGetUserMedia         |
+|RTCPeerConnection     |  webkitRTCPeerConnection | mozRTCPeerConnection    |
+|RTCSessionDescription |  RTCSessionDescription   | mozRTCSessionDescription|
+|RTCIceCandidate       |  RTCIceCandidate         | mozRTCIceCandidate      |
+<!-- .element: style="font-size:20px; margin:0 auto;" -->
+
+
+<!-- .slide: data-background="img/chrome-flags.png" style="background: none;" data-background-size="95%" -->
+
+
+<!-- .slide: data-background="img/firefox-about.png" style="background: none;" data-background-size="95%" -->
