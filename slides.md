@@ -133,7 +133,7 @@ Note:
 * Looking at a lower level API 
 
 
-<!-- .slide: data-background="img/webrtc-ready.png" style="background: none;" -->
+<!-- .slide: data-background="img/webrtc-ready.png" style="background: none;" data-background-size="80%" -->
 
 
 ### Interoperability between browsers
@@ -157,4 +157,4 @@ Note:
 <!-- .slide: data-background="img/chrome-flags.png" style="background: none;" data-background-size="80%" -->
 
 
-<!-- .slide: data-background="img/firefox-about.png" style="background: none;" data-background-size="80%" -->
+<!-- .slide: data-background="img/firefox-about.png" style="background: none;" data-background-size="70%" -->
