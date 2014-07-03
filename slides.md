@@ -101,6 +101,8 @@ Note:
 
 ## What Next?
 
+<!-- .slide: data-background="img/pill.jpg" style="background: none;" data-background-size="70%" -->
+
 
 # Welcome to the Real Time Web
 
