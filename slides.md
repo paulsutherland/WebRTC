@@ -10,7 +10,7 @@ Note:
 
 * Paul Sutherland
 * Construction Surveyor at Black & Veatch
-* Moved across to Application deployment
+* Moved across to application deployment
 * Working on mobile app development
 * Member of Software Society since its formation in 2011
 * mail@paulsutherland.net
@@ -141,7 +141,7 @@ Note:
 
 
 ### MediaStream
-* Obtains the Audio and Video 
+* Obtains the audio and video tracks 
 * Captures them as separate tracks
 * Combines both the tracks to form a stream
 * You interact via navigator.getUserMedia();
@@ -174,13 +174,13 @@ Note:
 
 ### Constraints
 * getUserMedia takes constraints
-* determining the width and height of video
+* Determining the width and height of video
 * Chrome allows screen capture (experimental)
 
 
 ### RTCPeerConnection
-* Communicating with other Browsers
-* Signal Processing
+* Communicating with other browsers
+* Signal processing
 * Sets up the peer to peer communication
 * Handles security
 
@@ -191,15 +191,15 @@ Note:
 
 
 ### RTCDataChannel
-* Uses RTCPeerConnection to send Data
+* Uses RTCPeerConnection to send data
 * This is in the form of JSON
 * This can support gaming
 * This can handle file transfers
 
 
 ### RTCDataChannel
-* Uses a WebSocket style of API
-* Low Latency 
+* Uses a websocket style of API
+* Low latency 
 * Sent as reliable or unreliable data
 
 
@@ -218,7 +218,7 @@ Note:
 * Simple server which connects browsers peer to peer
 * Google have released the source code for their STUN servers
 * Images on Amazon available 
-* stund package is available for Ubuntu
+* Stund package is available for Ubuntu
 
 
 ##### STUN server
@@ -227,7 +227,7 @@ Note:
 
 
 ### TURN
-* TURN Server is the back up
+* TURN server is the back up
 * Relays the connection is peer to peer fails
 * Seamless in the background determining STUN or TURN
 
