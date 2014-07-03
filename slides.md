@@ -136,9 +136,6 @@ Note:
 <!-- .slide: data-background="img/webrtc-ready.png" style="background: none;" -->
 
 
-<!-- .slide: data-background="img/firefox-about.png" style="background: none;" data-background-size="95%" -->
-
-
 ### Interoperability between browsers
 * Firefox Beta post May 2013 
 * Opera 20 
@@ -157,7 +154,7 @@ Note:
 <!-- .element: style="font-size:20px; margin:0 auto;" -->
 
 
-<!-- .slide: data-background="img/chrome-flags.png" style="background: none;" data-background-size="95%" -->
+<!-- .slide: data-background="img/chrome-flags.png" style="background: none;" data-background-size="80%" -->
 
 
-<!-- .slide: data-background="img/firefox-about.png" style="background: none;" data-background-size="95%" -->
+<!-- .slide: data-background="img/firefox-about.png" style="background: none;" data-background-size="80%" -->
