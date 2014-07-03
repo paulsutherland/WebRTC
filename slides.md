@@ -58,6 +58,18 @@ Note:
 ![When the web was young](img/google.png)
 
 
+##### Early Amazon 2001
+![When the web was young](img/2001-amazon.png)
+
+
+##### Early Amazon - no targeted ads!!
+![When the web was young](img/amazon.png)
+
+
+##### Even in 2003 it was still fairly static
+![When the web was young](img/wikipedia.png)
+
+
 #### Then through the early to mid 2000s we became dynamic
 
 
@@ -106,6 +118,18 @@ Note:
 
 
 ### All Peer to Peer
+
+
+### History
+* Google purchase Global IP Solutions (GIPS) for $68m in 2010
+* Google release WebRTC as a proposed standard in June 2011
+* They have pushed the W3C and IETF to develop standards
+* Ericsson Labs release a prototype
+
+
+##### First Implementation
+![When the web was young](img/ericsson.png)
+###### https://labs.ericsson.com/developer-community/blog/beyond-html5-peer-peer-conversational-video
 
 
 ### This is made possible using three APIs
@@ -281,3 +305,18 @@ Note:
 * sipML5 open source JavaScript SIP client
 * Phono open source JavaScript phone API
 * Zingaya embeddable phone widget
+
+
+
+### Demo
+http://zebibyte.co.uk
+
+
+### But Wait
+* Due to Apache woes it is not working seamlessly
+* Needs Apache 2.4 to proxy to web sockets
+* Proxy for social media login is flaky
+
+
+### So for now hit the node server direct
+http://78.129.251.242:7777
