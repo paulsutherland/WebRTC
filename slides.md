@@ -250,7 +250,7 @@ Note:
 * Looking at a lower level API 
 
 
-<!-- .slide: data-background="img/webrtc-ready.png" style="background: none;" data-background-size="70%" -->
+<!-- .slide: data-background="img/webrtc-ready.png" style="background: none;" data-background-size="60%" -->
 
 
 ### Interoperability between browsers
