@@ -97,7 +97,7 @@ Note:
 
 ### A world where through the browser you can:
 
-* File Share
+* Share Files
 * Live Chat
 * Sensor Feeds
 * Data Feeds
@@ -106,6 +106,123 @@ Note:
 
 
 ### All Peer to Peer
+
+
+### This is made possible using three APIs
+* MediaStream
+* RTCPeerConnection
+* RTCDataChannel
+
+
+### MediaStream
+* Obtains the Audio and Video 
+* Captures them as separate tracks
+* Combines both the tracks to form a stream
+* You interact via navigator.getUserMedia();
+
+
+##### MediaStream
+![When the web was young](img/media-stream.png)
+###### http://dev.w3.org/2011/webrtc/editor/getusermedia.html
+
+
+##### getUserMedia()
+![When the web was young](img/getusermedia.png)
+###### http://dev.w3.org/2011/webrtc/editor/getusermedia.html
+
+
+##### getUserMedia() Example
+![When the web was young](img/webcam-toy.png)
+###### http://webcamtoy.com/app/
+
+
+##### getUserMedia() Example
+![When the web was young](img/ascii-camera.png)
+###### http://idevelop.ro/ascii-camera/
+
+
+##### getUserMedia() Example
+![When the web was young](img/facekat.png)
+###### http://shinydemos.com/facekat/
+
+
+### Constraints
+* getUserMedia takes constraints
+* determining the width and height of video
+* Chrome allows screen capture (experimental)
+
+
+### RTCPeerConnection
+* Communicating with other Browsers
+* Signal Processing
+* Sets up the peer to peer communication
+* Handles security
+
+
+##### RTCPeerConnection
+![When the web was young](img/peerconnection.jpeg)
+###### http://www.WebRTC.org
+
+
+### RTCDataChannel
+* Uses RTCPeerConnection to send Data
+* This is in the form of JSON
+* This can support gaming
+* This can handle file transfers
+
+
+### RTCDataChannel
+* Uses a WebSocket style of API
+* Low Latency 
+* Sent as reliable or unreliable data
+
+
+##### RTCDataChannel Example
+![When the web was young](img/sharefest.png)
+###### https://www.sharefest.me/
+
+
+### How do we find a Browser
+* NATs and Firewalls cause problems
+* Difficult to obtain a public IP
+
+
+### STUN & TURN
+* Stun can determine the public IP address of a browser
+* Simple server which connects browsers peer to peer
+* Google have released the source code for their STUN servers
+* Images on Amazon available 
+* stund package is available for Ubuntu
+
+
+##### STUN server
+![When the web was young](img/stun.png)
+###### http://www.html5rocks.com/
+
+
+### TURN
+* TURN Server is the back up
+* Relays the connection is peer to peer fails
+* Seamless in the background determining STUN or TURN
+
+
+##### TURN server
+![When the web was young](img/turn.png)
+###### http://www.html5rocks.com/
+
+
+### Managing STUN and Turn
+
+
+### Welcome ICE
+* Managing the best connection rests with the ICE framework
+* Figures out the best option for the call
+* Utilises STUN as first resort
+
+
+##### Security
+![When the web was young](img/secure-pathways.png)
+###### http://io13webrtc.appspot.com/#55
 
 
 ### Browser Support
@@ -158,3 +275,9 @@ Note:
 
 
 <!-- .slide: data-background="img/firefox-about.png" style="background: none;" data-background-size="60%" -->
+
+
+### Outside the Browser
+* sipML5 open source JavaScript SIP client
+* Phono open source JavaScript phone API
+* Zingaya embeddable phone widget
