@@ -154,7 +154,7 @@ Note:
 <!-- .element: style="font-size:20px; margin:0 auto;" -->
 
 
-<!-- .slide: data-background="img/chrome-flags.png" style="background: none;" data-background-size="80%" -->
+<!-- .slide: data-background="img/chrome-flags.png" style="background: none;" data-background-size="70%" -->
 
 
-<!-- .slide: data-background="img/firefox-about.png" style="background: none;" data-background-size="70%" -->
+<!-- .slide: data-background="img/firefox-about.png" style="background: none;" data-background-size="60%" -->
