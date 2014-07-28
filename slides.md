@@ -312,13 +312,3 @@ Note:
 
 ### Demo
 http://zebibyte.co.uk
-
-
-### But Wait
-* Due to Apache woes it is not working seamlessly
-* Needs Apache 2.4 to proxy to web sockets
-* Proxy for social media login is flaky
-
-
-### So for now hit the node server direct
-http://78.129.251.242:7777
